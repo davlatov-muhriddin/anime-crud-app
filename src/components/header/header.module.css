@@ -1,0 +1,36 @@
+.header {
+    padding: 1rem 0;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContainer img {
+    width: 100px;
+}
+
+.headerNav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.headerNav a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headerNav a:nth-of-type(1) {
+    color: #000;
+}
+
+.headerNav a:nth-of-type(2) {
+    padding: 0.3rem 1rem;
+    color: #fff;
+    background: darkcyan;
+    border-radius: 0.3rem;
+}

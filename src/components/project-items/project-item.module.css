@@ -1,0 +1,56 @@
+.projectCard {
+  width: 450px;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.projectCard img {
+  width: 100%;
+  height: 300px;
+}
+
+.projectCardBody {
+  padding: 1rem;
+}
+
+.projectCard h1 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.projectCardBody p {
+  color: gray;
+  margin: 0.5rem 0rem;
+}
+
+.projectCardBody span {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.projectCardBtns {
+  padding: 0rem 1rem 1rem;
+}
+
+.projectCardBtns a {
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.projectCardBtns a:nth-of-type(1) {
+  background-color: #464646;
+}
+
+.projectCardBtns a:nth-of-type(2) {
+  background-color: #005e5e;
+}
+
+.projectCardBtns a {
+  background-color: crimson;
+}

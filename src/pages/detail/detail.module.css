@@ -1,0 +1,19 @@
+.detail {
+    padding: 3rem 0;
+}
+
+.detail img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.detail p {
+    color: gray;
+    margin: 1rem 0;
+}
+
+.detailContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
